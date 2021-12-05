@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <nav class="count">
+    <ul>
+        <li class="item">ADA University</li>
+        <li class="item">Hello World Team</li>
+    </ul>
+    </nav>
+    <div class="container">
+    </div>
+    <div class="bckg">
+        <div class="pictures">
+            <div class="row">
+                <div class="item1">
+                    <img src="emilphoto.jpg" class="picture-item">
+                    <span class="op" style="color: #fff;display: inline-block;"><a target="_blank" href="emil.html">Emil <br> Niyazov</a></span>
+
+                </div>
+                <div class="item1">
+                    <span class="op" style="color: #fff;display: inline-block;"><a target="_blank" href="amina.html">Amina <br> Babayeva</a></span>
+
+                    <img src="aminaphoto.jpg" class="picture-item">
+                </div>
+            </div>
+            <div class="row">
+                <div class="item1">
+                    <img src="ibrahimphoto.jpeg" class="picture-item">
+                    <span class="op" style="color: #fff;display: inline-block;"><a target="_blank" href="ibrahim.html">Ibrahim  <br> Mammadli</a></span>
+
+                </div>
+                <div class="item1">
+                    <span class="op" style="color: #fff;display: inline-block;"><a target="_blank" href="murad.html">Murad <br> Asadov</a></span>
+
+                    <img src="muradphoto.jpg" class="picture-item">
+                </div>
+            </div>    
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <p class="paragraph">Web info</p>
+    <p>This Web Site was developed by the team of students of ADA University. Developing our team website was our Assignment from ICT course. We took short courses on HTML and CSS for developing this webpage. That kind of HomeWork is so beneficial and interesting. As we study IT, learning the most useable Markup Languages was so usefull for us. We thank our Instructors <em> Araz Yusubov</em> and <em> Nuraddin Sadili</em> for providing us with this course.</p>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .op{
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px;
+        }
+        .pictures{
+            display: flex;
+            height: inherit;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: space-between;
+
+            
+        }
+        .item1 a{
+            letter-spacing: 2px;
+        }
+        .row{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .item1 img{
+            width: 300px;
+            height: auto;
+        }
+        .item{
+            display:inline-block;
+            font-size: 20px;
+            margin-right: 65px;
+            transition:all 0.2s linear;
+        }
+        
+        .item1{
+            flex-basis: 0;
+            display: flex;
+            align-items: center;
+        }
+        .count{
+            background-color: black;
+            color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            height: 15vh;
+            align-items: center;
+        }
+        .item:hover{
+            color: gray;
+        }
+        nav{
+            width: 100%;
+            position: sticky;
+            top: 0;
+            background: 40px 50% / 90px auto no-repeat url("7bbe4557946305a72d447aaacba611ae.png");
+        }
+        .bckg{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url("196-1963020_website-backgrounds-website-login-page-background.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .paragraph{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
